@@ -22,7 +22,7 @@
 
 import * as THREE from 'three';
 
-import '../assets/style/sketch.css';
+import '../assets/style/main.css';
 
 const scene: THREE.Scene = new THREE.Scene();
 const camera: THREE.PerspectiveCamera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
