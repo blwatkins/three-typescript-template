@@ -12,7 +12,7 @@ and
 Create a new project from this template using the green "Use this template" button above.
 
 Write the project's source code in the `src/` directory.
-The `src/main.ts` file provided contains a simple Three.js program with a [INSERT DESCRIPTION HERE].
+The `src/main.ts` file provided contains a simple Three.js program with a rotating green cube.
 This file will be used as the entry point for webpack.
 
 ## Installation
