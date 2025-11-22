@@ -28,7 +28,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: {
         main: {
-            import: './src/sketch.ts'
+            import: './src/main.ts'
         }
     },
     devtool: 'inline-source-map',
@@ -50,7 +50,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'template sketch',
+            title: 'template scene',
             inject: 'body',
             favicon: './assets/icon/favicon.ico'
         }),
