@@ -1,7 +1,7 @@
-# p5.js TypeScript Template
+# Three.js TypeScript Template
 
 A template project for using
-[p5.js](https://p5js.org/)
+[Three.js](https://threejs.org/)
 with
 [TypeScript](https://www.typescriptlang.org/)
 and
@@ -12,7 +12,7 @@ and
 Create a new project from this template using the green "Use this template" button above.
 
 Write the project's source code in the `src/` directory.
-The `src/sketch.ts` file provided contains a simple p5.js program with a black background and a white circle.
+The `src/main.ts` file provided contains a simple Three.js program with a [INSERT DESCRIPTION HERE].
 This file will be used as the entry point for webpack.
 
 ## Installation
@@ -93,7 +93,7 @@ The webpack build configuration can be found in `webpack.single-file.config.cjs`
 npm run dev
 ```
 
-`npm run dev` will bundle the sketch in development mode, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled sketch.
+`npm run dev` will bundle the scene in development mode, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled scene.
 
 ### Serving the Development Bundle with Single File Output
 
@@ -101,7 +101,7 @@ npm run dev
 npm run dev:single-file
 ```
 
-`npm run dev:single-file` will bundle the sketch in development mode with `webpack.single-file.config.cjs`, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled sketch.
+`npm run dev:single-file` will bundle the scene in development mode with `webpack.single-file.config.cjs`, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled scene.
 
 ### Serving the Production Bundle
 
@@ -109,7 +109,7 @@ npm run dev:single-file
 npm run dev:prod
 ```
 
-`npm run dev:prod` will bundle the sketch in production mode, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled sketch.
+`npm run dev:prod` will bundle the scene in production mode, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled scene.
 
 ### Serving the Production Bundle with Single File Output
 
@@ -117,7 +117,7 @@ npm run dev:prod
 npm run dev:prod:single-file
 ```
 
-`npm run dev:prod:single-file` will bundle the sketch in production mode with `webpack.single-file.config.cjs`, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled sketch.
+`npm run dev:prod:single-file` will bundle the scene in production mode with `webpack.single-file.config.cjs`, start a localhost development server (`127.0.0.1:8080`), and open a new browser window for the `index.html` file bundled with the compiled scene.
 
 # GitHub Workflows
 
@@ -129,8 +129,8 @@ To learn more about Dependabot configurations, visit the
 To learn more about CodeQL configurations, visit the
 [GitHub CodeQL documentation](https://codeql.github.com/docs/).
 
-[![CodeQL](https://github.com/brittni-and-the-polar-bear/p5-typescript-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/p5-typescript-template/actions/workflows/codeql.yml)
-[![npm Build](https://github.com/brittni-and-the-polar-bear/p5-typescript-template/actions/workflows/npm-build.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/p5-typescript-template/actions/workflows/npm-build.yml)
+[![CodeQL](https://github.com/brittni-and-the-polar-bear/three-typescript-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/three-typescript-template/actions/workflows/codeql.yml)
+[![npm Build](https://github.com/brittni-and-the-polar-bear/three-typescript-template/actions/workflows/npm-build.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/three-typescript-template/actions/workflows/npm-build.yml)
 
 # Attributions
 
@@ -146,4 +146,4 @@ The full text of the license is included with this source code.
 
 ----
 
-Copyright &copy; 2023-2025 brittni and the polar bear LLC.
+Copyright &copy; 2025 brittni and the polar bear LLC.
