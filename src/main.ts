@@ -30,7 +30,7 @@ camera.position.z = 5;
 
 const lightColor: number = 0xFFFFFF;
 const lightIntensity: number = 3;
-const light = new THREE.DirectionalLight(lightColor, lightIntensity);
+const light: THREE.DirectionalLight = new THREE.DirectionalLight(lightColor, lightIntensity);
 light.position.set(-1, 2, 4);
 scene.add(light);
 
